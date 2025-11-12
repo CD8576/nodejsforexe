@@ -2,7 +2,7 @@
 const { exec } = require('child_process');
 
 // Replace with the full path to your .exe file
-const filePath = 'C:\\path\\to\\your\\program.exe';
+const filePath = 'ULTRAKILL.exe';
 
 exec(`"${filePath}"`, (error, stdout, stderr) => {
   	if (error) {
